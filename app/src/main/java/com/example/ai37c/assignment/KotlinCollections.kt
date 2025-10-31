@@ -1,6 +1,6 @@
 package com.example.ai37c.assignment
 
-fun main(){
+fun main() {
     val wordsMeanings = mapOf(
         "cause" to "the reason why something, especially something bad, happens",
         "assignment" to "a task or piece of work allocated to someone as part of a job or course of study.",
@@ -9,5 +9,6 @@ fun main(){
         "male" to "of or denoting the sex that produces gametes, especially spermatozoa, with which a female may be fertilized or inseminated to produce offspring.",
     )
     println("Enter a word to find its meaning: ")
-    val input : String = readln().lowercase()
+    val input: String = readln().lowercase()
     println(wordsMeanings[input])
+}
