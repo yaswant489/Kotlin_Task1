@@ -11,4 +11,4 @@ fun main() {
     println("Enter a word to find its meaning: ")
     val input: String = readln().lowercase()
     println(wordsMeanings[input])
-}
+} 
