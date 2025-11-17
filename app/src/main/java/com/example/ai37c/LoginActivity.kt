@@ -106,23 +106,23 @@ fun LoginBody(){
             ) {
                 SocialMediaCard(
                     Modifier
-                        .height(60.dp)
+                        .height(50.dp)
                         .weight(1f),
                     R.drawable.ousen,
                     "Facebook"
                 )
 
 
-            }
+
             Spacer(modifier = Modifier.width(20.dp))
 
             SocialMediaCard(
                 Modifier
-                    .height(60.dp)
+                    .height(50.dp)
                     .weight(1f),
                 R.drawable.ribok,
                 "Gmail"
-            )
+            )}
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
